@@ -13,8 +13,7 @@ function login (arr) {
             } else {
                 console.log(`User ${username} blocked!`);
                 break;
-            }
-                   
+            }                  
         }
     }  
 }
