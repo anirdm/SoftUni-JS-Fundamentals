@@ -13,6 +13,3 @@ function chessBoard(size) {
     result += '</div>\n';
     console.log(result);
 }
-
-
-chessBoard(3);
