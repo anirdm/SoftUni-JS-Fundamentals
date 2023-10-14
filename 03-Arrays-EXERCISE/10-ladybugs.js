@@ -26,8 +26,6 @@ function ladybugs(arr) {
         // if there is a ladybug
         ladybugsResult[ladybugIndex] = 0;
 
-        //let newIndex = direction == 'left' ? ladybugIndex - flyLength : ladybugIndex + flyLength;
-
         if(direction == 'left') {
             let newIndex = direction = ladybugIndex - flyLength;
 
@@ -57,7 +55,3 @@ function ladybugs(arr) {
     }
     console.log(ladybugsResult.join(' '));
 }
-
-ladybugs([ 5, '3', '3 left 2', '1 left -2']);
-//ladybugs([ 3, '0 1', '0 right 1','2 right 1' ]);
-//ladybugs([ 3, '0 1 2', '0 right 1', '1 right 1', '2 right 1']);
