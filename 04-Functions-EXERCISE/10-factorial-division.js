@@ -9,5 +9,3 @@ function factorialDivision(num1, num2) {
         }
     }
 }
-
-factorialDivision(5, 2);
