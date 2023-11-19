@@ -1,0 +1,8 @@
+//all till 'PARTY'
+    let listOfGuests = {};
+
+    //after 'PARTY'
+    let lis
+
+
+    //set and then delete all the guessts that came so we have only not visited left
